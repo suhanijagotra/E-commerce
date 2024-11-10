@@ -6,7 +6,7 @@ function OurPolicy() {
 
       <div>
 
-        <img src="{assets.exchange_icon}" className='w-12 m-auto mb-5' alt="" />
+        <img src={assets.exchange_icon} className='w-12 m-auto mb-5' alt="" />
         <p className='font-semibold'>easy exchange poilicy</p>
         <p className='text-grey-400'>We offer hassle free exchange policy</p>
 
@@ -15,7 +15,7 @@ function OurPolicy() {
 
       <div>
 
-        <img src="{assets.quality_icon}" className='w-12 m-auto mb-5' alt="" />
+        <img src={assets.quality_icon} className='w-12 m-auto mb-5' alt="" />
         <p className='font-semibold'>7 Days return policy</p>
         <p className='text-grey-400'>We provide 7 days free return policy</p>
 
@@ -24,7 +24,7 @@ function OurPolicy() {
 
       <div>
 
-        <img src="{assets.support_img}" className='w-12 m-auto mb-5' alt="" />
+        <img src={assets.support_img} className='w-12 m-auto mb-5' alt="" />
         <p className='font-semibold'>Best customer support</p>
         <p className='text-grey-400'>We provide 24*7 customer support</p>
 
