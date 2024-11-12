@@ -4,8 +4,8 @@ import { products } from "../assets/assets";
 export const ShopContext = createContext();
 
 const ShopContextProvider = ({ children }) => {
-  const currency = "$";
-  const delivery_fee = 10;
+  const currency = "₹";
+  const delivery_fee = 50;
 
   const value = {
     products,
