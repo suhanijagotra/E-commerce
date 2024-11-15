@@ -1,23 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom/client"; // Updated import for React 18
-import App from "./App";
-import ShopContextProvider from "./context/ShopContext";
-import { BrowserRouter } from "react-router-dom";
-import "./index.css"; // Assuming you have a global CSS file
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
+import { BrowserRouter } from 'react-router-dom'
+import ShopContextProvider from './context/ShopContext.jsx'
 
-// Get the root DOM element
-const rootElement = document.getElementById("root");
-
-// Create the root
-const root = ReactDOM.createRoot(rootElement);
-
-// Render the app
-root.render(
-  <React.StrictMode>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
     <ShopContextProvider>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
+      <App />
     </ShopContextProvider>
-  </React.StrictMode>
-);
+  </BrowserRouter>,
+)
